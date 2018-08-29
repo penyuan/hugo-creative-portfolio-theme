@@ -6,6 +6,8 @@
 
 Creative portfolio is a clean and elegant template mainly made for designers and creatives but can be easily transformed into a generic website.
 
+This repository is forked from [here](https://github.com/keanemind/hugo-creative-portfolio-theme), which is itself a fork of the original repository [here](https://github.com/kishaningithub/hugo-creative-portfolio-theme).
+
 This Hugo theme was ported from [Bootstrapious](https://bootstrapious.com/p/creative-portfolio) for training and fun. It has a very nice landing page, a comments system by Disqus, contact forms by Formspree and Google Analytics.
 
 ![screenshot](https://raw.githubusercontent.com/kishaningithub/hugo-creative-portfolio-theme/master/images/screenshot.png)
