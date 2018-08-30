@@ -1,7 +1,12 @@
 /* your styles go here*/
 
-/* dark backgroun colour on front page*/
+/* change default font to not use Google Fonts */
+
+
 body {
+  /* change to "RobotoRegular" to match what's from fontlibrary.org */
+  font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+  /* dark background colour on front page */
   background-color: #2d2d2d;
 }
 
@@ -17,6 +22,11 @@ body {
 }
 .small-navbar-heading a:hover {
   color: #e0e0e0;
+}
+
+/* improve buffer/padding space in sidebar when on small screen */
+.sidebar-content {
+  padding: 0 2em 0 0.2em;
 }
 
 /* lighter colour for sidebar links */
