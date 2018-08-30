@@ -3,3 +3,4 @@ themes/
 public/
 .Rproj.user
 *.Rproj
+.Rhistory
