@@ -1,1 +1,31 @@
-/* your styles go here */
+/* your styles go here*/
+
+/* dark backgroun colour on front page*/
+body {
+  background-color: #2d2d2d;
+}
+
+/* light colour for sidebar heading */
+.sidebar-heading a {
+  color: #a7a7a7;
+}
+.sidebar-heading a:hover {
+  color: #e0e0e0;
+}
+.small-navbar-heading a {
+  color: #a7a7a7;
+}
+.small-navbar-heading a:hover {
+  color: #e0e0e0;
+}
+
+/* lighter colour for sidebar links */
+.sidebar-menu li a {
+  color: #a7a7a7;
+  font-weight: bold;
+}
+
+/* reduce fade-out shadow around each portfolio item on front page */
+.box-masonry {
+  box-shadow: 0 0 2px #ccc;
+}
