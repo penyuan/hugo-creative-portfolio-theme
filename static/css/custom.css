@@ -1,13 +1,19 @@
 /* your styles go here*/
 
-/* change default font to not use Google Fonts */
-
-
+/* change default font to not use Google Fonts and use font(s) from
+   the Font Library instead */
 body {
   /* change to "RobotoRegular" to match what's from fontlibrary.org */
-  font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+  font-family: "MetropolisRegular", Helvetica, Arial, sans-serif;
   /* dark background colour on front page */
   background-color: #2d2d2d;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "MetropolisRegular", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #000000;
 }
 
 /* light colour for sidebar heading */
