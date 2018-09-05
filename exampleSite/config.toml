@@ -45,6 +45,11 @@ googleAnalytics = ""
   name = "Get in touch"
   url = "contact/"
 
+  # Links can be to external URLs if they start with http(s)
+  [[params.navlinks]]
+  name = "External link"
+  url = "https://gohugo.io/"
+
   [params.social]
   facebook      = "full page or profile url in facebook"
   googleplus    = "full profile url in googleplus"
