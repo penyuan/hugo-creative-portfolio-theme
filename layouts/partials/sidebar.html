@@ -7,7 +7,11 @@
     <ul class="sidebar-menu">
       {{ $url := .Site.BaseURL }}
       {{ range .Site.Params.navlinks }}
-        <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
+        {{ if in .url "http" }}
+            <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ else }}
+            <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
       {{ end }}
     </ul>
     {{ partial "social_buttons_in_sidebar.html" . }}
