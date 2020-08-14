@@ -5,7 +5,6 @@
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
     <ul class="sidebar-menu">
-      {{ $url := .Site.BaseURL }}
       {{ range .Site.Params.navlinks }}
       <!-- If a full external URL is provided with "http(s)", link to it -->
         {{ if in .url "http" }}
@@ -20,7 +19,7 @@
     <div class="copyright">
       <p class="credit">
         {{ with .Site.Params.copyright }}
-          {{ . | safeHTML }}
+          {{ . | safeHTML }} |
         {{ end }}
         {{ partial "attribution.html" . }}
       </p>
